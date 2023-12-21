@@ -85,7 +85,7 @@ class ViewModelForTestingTest {
         assertEquals(0, result)
     }
 
-    //anu es pirvelad ro vcade test failed damiwera. amitom gadavakete funqcia ro icodet.
+    //anu es pirvelad ro vcade test failed damiwera. amitom gadavakete funqcia.
     @Test
     fun `test multiply operation with empty string`() {
         val result = viewModel.multiplyOperation()
